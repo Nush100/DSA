@@ -7,6 +7,7 @@ public class Main {
         Arrays arr = new Arrays();
         ArraysList arrList = new ArraysList();
         MapAndHashMap map1 = new MapAndHashMap();
+        Sets set1 = new Sets();
 
         System.out.println("Arrays");
         arr.arrayDetails();
@@ -20,6 +21,10 @@ public class Main {
 
         System.out.println("Maps");
         map1.mapDetails();
+        System.out.println();
+        System.out.println();
 
+        System.out.println("Sets");
+        set1.setDetails();
     }
 }

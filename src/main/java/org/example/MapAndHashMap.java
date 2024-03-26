@@ -22,7 +22,7 @@ public class MapAndHashMap {
 
         System.out.println("Get a value -> students.get(\"Eric\") : Answer =" + students.get("Eric"));
         System.out.println("Contains Key? -> students.containsKey(\"Eric\") : Answer = " + students.containsKey("Eric"));
-        System.out.println("Contains value -> students.containsValue(12345) : Answer = " + students.containsValue(12345));
+        System.out.println("Contains value? -> students.containsValue(12345) : Answer = " + students.containsValue(12345));
         System.out.println();
 
         students.put("Jho", 99999);
